@@ -1,5 +1,5 @@
 import { useEffect, useReducer } from 'react'
-import { todoReducer } from "../08-useReducer/todoReducer"
+import { todoReducer } from "./todoReducer"
 
 const init = () => {
     return JSON.parse( localStorage.getItem('todos') ) || [] // intentar parsear todo lo que esta aca que es null y null va a evaluar ese objeto
